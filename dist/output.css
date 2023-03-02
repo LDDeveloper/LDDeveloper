@@ -567,14 +567,6 @@ video {
   top: 0px;
 }
 
-<<<<<<< HEAD
-.right-0 {
-  right: 0px;
-}
-
-.left-0 {
-  left: 0px;
-=======
 .top-\[18\%\] {
   top: 18%;
 }
@@ -609,7 +601,6 @@ video {
 
 .top-\[100\%\] {
   top: 100%;
->>>>>>> 998ae5189bcafac7df8831a18bdab72a342b79d8
 }
 
 .z-10 {
@@ -620,53 +611,6 @@ video {
   z-index: 20;
 }
 
-<<<<<<< HEAD
-.col-span-4 {
-  grid-column: span 4 / span 4;
-}
-
-.col-start-1 {
-  grid-column-start: 1;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
-.col-start-5 {
-  grid-column-start: 5;
-}
-
-.col-start-4 {
-  grid-column-start: 4;
-}
-
-.col-end-2 {
-  grid-column-end: 2;
-}
-
-.col-end-5 {
-  grid-column-end: 5;
-}
-
-.col-end-4 {
-  grid-column-end: 4;
-}
-
-.col-end-6 {
-  grid-column-end: 6;
-}
-
-.col-end-7 {
-  grid-column-end: 7;
-}
-
-.m-auto {
-  margin: auto;
-}
-
-=======
->>>>>>> 998ae5189bcafac7df8831a18bdab72a342b79d8
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -756,7 +700,6 @@ video {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .w-4\/5 {
   width: 80%;
 }
@@ -826,13 +769,10 @@ video {
   flex-basis: 13rem;
 }
 
-=======
->>>>>>> 998ae5189bcafac7df8831a18bdab72a342b79d8
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-<<<<<<< HEAD
 .columns-2 {
   -moz-columns: 2;
        columns: 2;
@@ -856,10 +796,9 @@ video {
 
 .flex-col {
   flex-direction: column;
-=======
+}
 .cursor-pointer {
   cursor: pointer;
->>>>>>> 998ae5189bcafac7df8831a18bdab72a342b79d8
 }
 
 .flex-col {
@@ -902,13 +841,11 @@ video {
   gap: 1rem;
 }
 
-<<<<<<< HEAD
 .gap-3 {
   gap: 0.75rem;
-=======
+}
 .gap-8 {
   gap: 2rem;
->>>>>>> 998ae5189bcafac7df8831a18bdab72a342b79d8
 }
 
 .gap-x-9 {
@@ -1147,7 +1084,6 @@ video {
   background-color: rgb(190 242 100 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD
 @media (min-width: 768px) {
   .md\:block {
     display: block;
@@ -1155,10 +1091,11 @@ video {
 
   .md\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-=======
+  }
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
 }
 
 @media (min-width: 768px) {
@@ -1219,6 +1156,5 @@ video {
   .md\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
->>>>>>> 998ae5189bcafac7df8831a18bdab72a342b79d8
   }
 }
