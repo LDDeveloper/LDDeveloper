@@ -1,62 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/output.css">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="output.css"/>
     <script src="https://kit.fontawesome.com/d62314cbab.js" crossorigin="anonymous"></script>
    <!--  <script src="https://cdn.tailwindcss.com"></script>--> 
-
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>LDDeveloper</title>
 </head>
 <body>
-      
-
-    <nav class=" bg-black  text-white flex justify-between ">
-      
-        <img src="../images/logo 2 copy.jpg " class="h-20 py-3">
-       
-     
-        <ul class="px-24 py-6 flex space-x-16 justify-end">
-            <li>Home</li>
-            <li>About</li>
-            <li>Career</li>
-            <li>Course</li>
-        </ul>
-    </nav>
-
-  <header >
+  
+  <nav class=" bg-black  text-white flex justify-between ">
+    <div>
+      <img src="../images/logo 2 copy.jpg " class="h-20 py-3">
+   </div>
+        <div class=" nav-links md:static absolute md:bg-black md:text-white bg-white text-black font-bold md:min-h-fit min-h-[20vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-8 py-2">
+<ul class="flex md:flex-row flex-col md:items-center md:justify-end  md:gap-12 gap-8">
+  <li><a class="hover:text-gray-600 cursor-pointer" href="#">Home</a></li>
+    <li><a class="hover:text-gray-600 cursor-pointer" href="#">About </a></li>
+    <li><a class="hover:text-gray-600 cursor-pointer" href="#">Career </a></li>
+    <li><a class="hover:text-gray-600 cursor-pointer" href="#">Course</a></li>
+    </ul>
+    </div>
+    
+    <div class="flex items-center px-5 md:hidden">
+    <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl text-white cursor-pointer"></ion-icon>
+</div>
 
     
+</nav>
+               
+      
+             
 
 
-    <div class="w-11/12 flex justify-between items-center  text-black py-5 px-8  m-auto ">
-    <div class="w-11/12 flex justify-between   text-black py-5 px-8  m-auto">
-      <div class="font-bold text-2xl"> 
-        <a href="#">LD Developer</a>
-      </div>
-      <div class="hidden">
-        <button class=" text-xl"><i class="fa-solid fa-bars"></i></button>
-      </div>
-      <nav>
-        <ul class="flex gap-x-9">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Career</a>
-          </li>
-          <li>
-            <a href="#">Course</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
 
   <section>
@@ -144,29 +124,20 @@
           <h3 class="text-3xl">Freelance</h3>
           <h3 class="text-3xl">Senior Product Design</h3>
         </div>
-        <p>August 2021-today</p>
-        
-      </article>
-    </a>
-  </div>
-    
-    <div>
-      <a href="">
-      <article class="py-12 bg-white transition duration-500 ease-in-out hover:translate-y-1 hover:scale-110 hover:bg-lime-300 rounded-lg">
         <div>
-          <h3 class="text-3xl">Pleo</h3>
-          <h3 class="text-3xl">Senior Product Design</h3>
+          <img class="rounded-lg" src="../images/logo 2 copy.jpg" alt="">
         </div>
-        <p>October 2020-july 2021</p>
-      </article>
-    </a>
-  </div>
-</div>
+      </section>
+    </main>
+   </div>
+ 
+
+  
   
 
-      
-
-
+  <div class=" flex space-x-5 content-around p-20 justify-end gap-4">
+    <div class="text-5xl">
+      <h1 class="">Career</h1>
     </div>
 
 
@@ -295,22 +266,18 @@
                    <h2 class="font-bold mb-4  text-2xl">LD Developer</h2>
                    <ul class=" font-light text-xs flex ">
                      <p> Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h4></p>
-                   </p>
-                       </ul>
+                    </p>
+                   </ul>
                </div>
                <div class="flex">
-                   <ul class=" space-y-10">
+                   <ul class="space-y-10">
                        
                    <h2 class="font-bold mb-4  text-2xl">Home</h2>
                    <h2 class="font-bold mb-4 text-2xl">About</h2>
                    <h2 class="font-bold mb-4  text-2xl">Career</h2>
                    <h2 class="font-bold mb-4  text-2xl">Course</h2>
                   
-                  <!--- <ul class="ml-6">
-                       <li><a href="a">Home</a></li>
-                       <li><a href="a">About</a></li> 
-                       <li><a href="a">Career</a></li>
-                   </ul>-->
+                  
                    <ul>
                </div>
                <div class="flex-col space-y-10">
@@ -330,10 +297,17 @@
                    </div>
                    </div>
                    </div>
-                   </footer>
+        </footer>
                    
-                   
+        <script>
+          const navLinks = document.querySelector('.nav-links')
+          function onToggleMenu(e){
+            e.name = e.name ==='menu' ? 'close': 'menu'
+          navLinks.classList.toggle('top-[16%]')
+          }  
+        </script>  
                
+           
                
 </body>
 </html>
